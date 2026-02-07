@@ -47,7 +47,7 @@ FurniWeb/
 |-----------------------------|-------------------------------|
 | Python 3.11+                | Asosiy dasturlash tili        |
 | Django 5.x                  | Web ilova framework           |
-| PostgreSQL / SQLite         | Ma'lumotlar bazasi            |
+| SQLite         | Ma'lumotlar bazasi            |
 | Django Admin                | Tizimni boshqarish interfeysi |
 | Bootstrap 5                 | UI dizayn va responsivelik    |
 | Pillow                      | Rasm fayllar bilan ishlash    |
@@ -61,14 +61,8 @@ FurniWeb/
 
 - Python 3.11+
 - `virtualenv` yoki `poetry`
-- PostgreSQL (asosiy) yoki SQLite (test rejimi)
 
 ### 2. O‘rnatish
-
-```bash
-git clone https://github.com/itsjasminn/FurniWeb.git
-cd FurniWeb
-```
 
 ```
 python3 -m venv .venv
@@ -124,8 +118,8 @@ python manage.py createsuperuser
 
 **Made with 🧡 by Jasmina Ochildiyeva**
 
-[🔗 GitHub Profilim](https://github.com/itsjasminn)
-[📂 FurniWeb Repository](https://github.com/itsjasminn/FurniWeb)
+[🔗 GitHub Profilim](https://github.com/jasminndev)
+[📂 FurniWeb Repository](https://github.com/jasminndev/furni.web)
 
 ---
 
@@ -177,7 +171,7 @@ FurniWeb/
 |-----------------------------|------------------------------------|
 | Python 3.11+                | Main programming language          |
 | Django 5.x                  | Web application framework          |
-| PostgreSQL / SQLite         | Database                           |
+| SQLite         | Database                           |
 | Django Admin                | Management interface               |
 | Bootstrap 5                 | UI design and responsiveness       |
 | Pillow                      | Image handling                     |
@@ -197,7 +191,7 @@ FurniWeb/
 ### 2. Installation
 
 ```bash
-git clone https://github.com/itsjasminn/FurniWeb.git
+git clone https://github.com/jasminndev/furni.web.git
 cd FurniWeb
 ```
 
@@ -255,9 +249,6 @@ python manage.py createsuperuser
 
 **Made with 🧡 by Jasmina Ochildiyeva**
 
-[🔗 My GitHub profile](https://github.com/itsjasminn)
+[🔗 My GitHub profile](https://github.com/jasminndev)
 
-[📂 FurniWeb Repository](https://github.com/itsjasminn/FurniWeb)
-
-
-
+[📂 FurniWeb Repository](https://github.com/jasminndev/furni.web)
