@@ -16,12 +16,12 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'unfold',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.admin',
     'apps'
 ]
 
@@ -108,3 +108,9 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 REDIS_DB = 0
+
+UNFOLD = {
+    "SIDEBAR": {
+        "show_all_applications": True,
+    }
+}
